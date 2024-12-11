@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New User</title>
+    <link rel="stylesheet" href="/static/style.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add New User</h1>
+        <form action="/add_user" method="post">
+            <label for="username">New Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">New Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <input type="submit" value="Add User">
+
+            <a href="/access-hospital">Access Hospital DB</a>
+        </form>
+    </div>
+
+</body>
+</html>
