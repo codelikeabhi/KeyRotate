@@ -2,4 +2,6 @@
 
 Run this command to activate the FASTAPI Server
 
-```uvicorn auth_db:app --reload```
+```
+uvicorn auth_db:app --reload
+```
